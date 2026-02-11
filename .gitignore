@@ -1,0 +1,15 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# SECRETS - NEVER COMMIT
+grading.json
+terraform.tfvars
+
+# Test files  
+*.jpg
+*.backup
+
+# OS
+.DS_Store
