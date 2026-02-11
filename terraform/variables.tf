@@ -8,3 +8,4 @@ variable "student_id" {
   description = "Your student ID for S3 bucket naming"
   type        = string
 }
+# CI/CD test - safe to delete
