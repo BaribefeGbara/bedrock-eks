@@ -41,10 +41,3 @@ resource "aws_iam_user_policy" "developer_s3_put" {
 resource "aws_iam_access_key" "developer" {
   user = aws_iam_user.developer.name
 }
-
-# Output console password for grading
-output "developer_console_password" {
-  value     = aws_iam_user_login_profile.developer.password
-  sensitive = true
-  description = "Console password for bedrock-dev-view user"
-}
