@@ -3,7 +3,8 @@
 *.tfstate
 *.tfstate.*
 
-# SECRETS - NEVER COMMIT
+# Secrets - NEVER commit
+terraform/grading.json
 terraform.tfvars
 
 # Test files  
