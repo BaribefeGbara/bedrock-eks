@@ -1,4 +1,14 @@
 {
+  "assets_bucket_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "bedrock-assets-altsoe0250985"
+  },
+  "cluster_endpoint": {
+    "sensitive": false,
+    "type": "string",
+    "value": "https://AD03E993F08DFC6F26F2D24F7FCB7056.gr7.us-east-1.eks.amazonaws.com"
+  },
   "cluster_name": {
     "sensitive": false,
     "type": "string",
